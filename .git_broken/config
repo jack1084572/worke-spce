@@ -1,0 +1,39 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[branch "main"]
+	vscode-merge-base = origin/main
+	remote = origin
+	github-pr-base-branch = "jack1084572#worke-spce#master"
+	github-pr-base-branch = "jack1084572#worke-spce#master"
+	merge = refs/heads/main
+[lfs]
+	repositoryformatversion = 0
+[remote "origin"]
+	url = git@github.com:jack1084572/worke-spce.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[lfs "https://github.com/jack1084572/worke-spce.git/info/lfs"]
+	access = basic
+[commit]
+	gpgsign = true
+[branch "master"]
+	github-pr-base-branch = "jack1084572#worke-spce#main"
+	vscode-merge-base = origin/main
+	remote = origin
+	github-pr-base-branch = "jack1084572#worke-spce#main"
+	merge = refs/heads/master
+[branch "dev-feature"]
+	github-pr-base-branch = "jack1084572#worke-spce#main"
+	vscode-merge-base = origin/main
+	remote = origin
+	merge = refs/heads/dev-feature
+[branch "dev-feature1"]
+	github-pr-base-branch = "jack1084572#worke-spce#dev-feature"
+	vscode-merge-base = origin/dev-feature
+	remote = origin
+	merge = refs/heads/dev-feature1
+[remote "dev-feature1"]
+	url = git@github.com:jack1084572/worke-spce.git
+	fetch = +refs/heads/*:refs/remotes/dev-feature1/*
